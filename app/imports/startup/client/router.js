@@ -8,6 +8,13 @@ FlowRouter.route('/', {
   },
 });
 
+FlowRouter.route('/terms', {
+  name: 'Terms_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Terms_Page' });
+  },
+});
+
 FlowRouter.route('/list', {
   name: 'List_Stuff_Page',
   action() {
