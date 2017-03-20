@@ -1,0 +1,19 @@
+<!-- Courtesy of https://www.sitepoint.com/creating-custom-login-registration-form-with-meteor/ -->
+
+<template name="Register">
+  <form class="ui form">
+      <div class="field">
+        <input type="text" name="email" placeholder="UH Username">
+      </div>
+      <div>
+        <input type="password" name="password" placeholder="UH Password">
+      </div>
+      <div class="field">
+        <div class="ui checkbox">
+          <input type="checkbox" tabindex="0" class="hidden">
+          <label>I agree to the <a href="{{pathFor 'Terms_Page'}}">Terms and Conditions</a></label>
+        </div>
+      </div>
+      <button class="ui button" type="submit">Get Started</button>
+  </form>
+</template>
