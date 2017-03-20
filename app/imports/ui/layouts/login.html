@@ -1,0 +1,15 @@
+<!-- Courtesy of https://www.sitepoint.com/creating-custom-login-registration-form-with-meteor/ -->
+
+<template name="Login">
+  <form class="ui form">
+    <div class="field">
+      <input type="text" name="user" placeholder="UH Username">
+    </div>
+    <div class="field">
+      <input type="password" name="password" placeholder="UH Password">
+    </div>
+    <div class="ui buttons"><button class="ui button" type="submit">Login</button>
+    <div class="or"></div>
+    <a class="ui button" href="{{ pathFor 'Home_Page' }}" >Register</a></div>
+  </form>
+</template>
