@@ -15,6 +15,13 @@ FlowRouter.route('/user-home', {
   },
 });
 
+FlowRouter.route('/admin-home', {
+  name: 'Admin_Home_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Admin_Home_Page' });
+  },
+});
+
 FlowRouter.route('/terms', {
   name: 'Terms_Page',
   action() {

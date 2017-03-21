@@ -1,0 +1,54 @@
+<template name="Admin_Home_Page">
+  <div class="ui grid divided container">
+
+    <div class="four wide column">
+      <form class="ui form">
+        <div class="field">
+          <label>Make Announcement</label>
+          <textarea name="announcement" rows="2"></textarea>
+        </div>
+        <button class="ui button" type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="twelve wide column">
+      <h2>Flagged users</h2>
+      <hr>
+      <div class="ui divided list">
+        <div class="item">
+          <div class="right floated content">
+            <div class="ui mini buttons">
+              <button class="ui button">Dismiss Report</button>
+              <div class="or"></div>
+              <button class="ui red button">Ban User</button>
+            </div>
+          </div>
+          <i class="ui user middle aligned icon"></i>
+          <div class="content">
+            <a class="header">Troublemaking-user
+              <div class="ui red circular left pointing label">22</div>
+            </a>
+            <div class="description">Inappropriate YouTube link</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="right floated content">
+            <div class="ui mini buttons">
+              <button class="ui button">Dismiss Report</button>
+              <div class="or"></div>
+              <button class="ui red button">Ban User</button>
+            </div>
+          </div>
+          <i class="ui user middle aligned icon"></i>
+          <div class="content">
+            <a class="header">Other-user
+              <div class="ui red circular left pointing label">1</div>
+            </a>
+            <div class="description">Inappropriate profile image</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</template>
