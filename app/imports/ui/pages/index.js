@@ -8,6 +8,8 @@ import './home-page.html';
 
 import './user-home-page.html';
 
+import './admin-home-page.html';
+
 import './landing-page.html';
 
 import './terms-page.html';
