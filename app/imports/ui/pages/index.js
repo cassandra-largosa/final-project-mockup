@@ -16,5 +16,7 @@ import './terms-page.html';
 
 import './login-page.html';
 
+import './edit-profile-page.html';
+
 import './list-stuff-page.html';
 import './list-stuff-page.js';
