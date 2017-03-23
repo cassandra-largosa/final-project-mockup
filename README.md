@@ -25,4 +25,4 @@ This is what an admin would see when first logged in. There is a space for the a
 
 Edit Profile Page:
 ![6](https://raw.githubusercontent.com/cassandra-largosa/final-project-mockup/master/doc/edit-profile-page-mockup.png)
-The page to edit the profile. A user can provide YouTube and SoundCloud links to showcase their musical talents. The instruments and musical tastes lists will probably change to dropdown menus since those lists will become significantly longer. For the purposes of the mockup the edit profile page is accessible though the menu without logging in, however in the final version it will only be accessible when a user is logged in.
+The page to edit the profile. A user can provide YouTube and SoundCloud links to showcase their musical talents. For the purposes of the mockup the edit profile page is accessible though the menu without logging in, however in the final version it will only be accessible when a user is logged in.
